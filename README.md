@@ -1,6 +1,6 @@
 # Study of Penalty function on Maze Solvers
 
-![RL](Assets\RL.png)
+![RL](Assets/RL.png)
 # Reinforcement Learning
 Reinforcement Learning (RL) is a branch of machine learning where an agent learns to make decisions by performing actions in an environment to maximize cumulative rewards. It involves the following key components:
 
@@ -56,7 +56,7 @@ Reward = reward_exit + penalty_move + *( penalty_visited * 2<sup>n</sup> )* + pe
 
 Where \( n \) is the number of times the agent has visited the current cell.
 
-![Penalties](Assets\penalties.png)
+![Penalties](Assets/penalties.png)
 
 # Results
 
@@ -79,10 +79,10 @@ min_reward = -1.5*size
 | Penalty2         | SARSA      | 185     | 00:08:37               |
 
 ### Q-Learning
-![Setup1Q](Assets\setup1_Qlearning.png)
+![Setup1Q](Assets/setup1_Qlearning.png)
 
 ### SARSA
-![Setup1sarsa](Assets\setup1_sarsa.png)
+![Setup1sarsa](Assets/setup1_sarsa.png)
 
 ### Setup 2
 ```
@@ -101,9 +101,9 @@ min_reward = -2.0*size
 | Penalty2         | SARSA      | 155     | 00:06:45               |
 
 ### Q-Learning
-![Setup2Q](Assets\setup2_Qlearning.png)
+![Setup2Q](Assets/setup2_Qlearning.png)
 
 ### SARSA
-![Setup2sarsa](Assets\setup2_sarsa.png)
+![Setup2sarsa](Assets/setup2_sarsa.png)
 # Credits
 This work builds upon the ideas presented in [Reinforcement-Learning-Maze](https://github.com/erikdelange/Reinforcement-Learning-Maze.git). Special thanks to [Erik de Lange](https://github.com/erikdelange) for developing such a comprehensive work.
