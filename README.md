@@ -37,6 +37,7 @@ In RL, the agent explores and exploits its environment to find an optimal policy
 | `penalty_visited`       | -0.25         | Penalty for returning to a cell which was visited earlier        |
 | `penalty_impossible_move` | -0.75      | Penalty for trying to enter an occupied cell or moving out of the maze |
 
+![video_demo](https://github.com/user-attachments/assets/ea6ab827-fb4b-4ffa-b2da-fc4ed9b844eb)
 
 # Reward Calculation
 
